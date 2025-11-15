@@ -5,7 +5,7 @@ Make sure you create the `S3` bucket to store the state.
 Please adjust the below command to fit your need.
 
 ``` bash
-aws s3api create-bucket   --bucket r3ap3rpywpress  --region eu-north-1   --create-bucket-configuration LocationConstraint=eu-north-1
+aws s3api create-bucket   --bucket bucketname  --region eu-north-1   --create-bucket-configuration LocationConstraint=eu-north-1
 ```
 
 To grab a list of available instances for a region you can use the following command.
@@ -21,7 +21,7 @@ Or you can use the ssh client via browser.
 Grab the password.
 
 ``` bash
-bitnami@ip-172-26-14-132:~$ cat /home/bitnami/bitnami_application_password
+$ cat /home/bitnami/bitnami_application_password
 oLN0R5w0/aS6
 ```
 
